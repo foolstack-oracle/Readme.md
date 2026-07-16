@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dc2626" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#b91c1c" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#b91c1c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="38%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="60%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </radialGradient>
+    <linearGradient id="ringShine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e4e4e7"/>
+      <stop offset="50%" stop-color="#71717a"/>
+      <stop offset="100%" stop-color="#3f3f46"/>
+    </linearGradient>
+    <style>
+      .breathe { animation: breathe 5s ease-in-out infinite; transform-origin: 500px 210px; }
+      .corePulse { animation: corePulse 5s ease-in-out infinite; transform-origin: 500px 210px; }
+      .dash-cw  { animation: dashcw 14s linear infinite; }
+      .dash-ccw { animation: dashccw 18s linear infinite; }
+      .zodiac { animation: spinZ 60s linear infinite; transform-origin: 500px 210px; }
+      .caption { animation: fadeIn 2.5s ease-out 0.8s forwards; opacity: 0; }
+      @keyframes breathe  { 0%,100% { opacity: 0.65; } 50% { opacity: 1; } }
+      @keyframes corePulse{ 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+      @keyframes dashcw   { to { stroke-dashoffset: -300; } }
+      @keyframes dashccw  { to { stroke-dashoffset: 300; } }
+      @keyframes spinZ    { to { transform: rotate(360deg); } }
+      @keyframes fadeIn   { to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .breathe, .corePulse, .dash-cw, .dash-ccw, .zodiac { animation: none; }
+        .caption { animation: none; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="420" fill="#0a0a0f"/>
+
+  <!-- distant stars -->
+  <circle cx="90"  cy="70"  r="1.4" fill="#71717a"/>
+  <circle cx="210" cy="330" r="1.2" fill="#52525b"/>
+  <circle cx="820" cy="90"  r="1.5" fill="#71717a"/>
+  <circle cx="905" cy="300" r="1.2" fill="#52525b"/>
+  <circle cx="150" cy="190" r="1.0" fill="#c9a227"/>
+  <circle cx="870" cy="200" r="1.0" fill="#c9a227"/>
+
+  <!-- outer zodiac dial, slow spin -->
+  <g class="zodiac" opacity="0.5">
+    <circle cx="500" cy="210" r="185" fill="none" stroke="#3f3f46" stroke-width="1"/>
+    <circle cx="500" cy="210" r="172" fill="none" stroke="#3f3f46" stroke-width="0.6" stroke-dasharray="2 10"/>
+    <g fill="#c9a227" font-size="13" text-anchor="middle" opacity="0.9">
+      <text x="500" y="20"  transform="rotate(0 500 210)">☉</text>
+      <text x="500" y="20"  transform="rotate(45 500 210)">☽</text>
+      <text x="500" y="20"  transform="rotate(90 500 210)">☿</text>
+      <text x="500" y="20"  transform="rotate(135 500 210)">♆</text>
+      <text x="500" y="20"  transform="rotate(180 500 210)">⚶</text>
+      <text x="500" y="20"  transform="rotate(225 500 210)">♄</text>
+      <text x="500" y="20"  transform="rotate(270 500 210)">♁</text>
+      <text x="500" y="20"  transform="rotate(315 500 210)">⚹</text>
+    </g>
+  </g>
+
+  <!-- ======= pseudo-3D torus: three gyroscope rings ======= -->
+  <!-- ring 1: flat horizontal torus band -->
+  <g>
+    <ellipse cx="500" cy="210" rx="150" ry="46" fill="none"
+             stroke="url(#ringShine)" stroke-width="2.5" opacity="0.9"/>
+    <ellipse class="dash-cw" cx="500" cy="210" rx="150" ry="46" fill="none"
+             stroke="#c9a227" stroke-width="1.4" stroke-dasharray="6 24" opacity="0.85"/>
+    <!-- particle orbiting the torus band -->
+    <circle r="4" fill="#c9a227">
+      <animateMotion dur="7s" repeatCount="indefinite"
+        path="M 650,210 A 150,46 0 1,1 350,210 A 150,46 0 1,1 650,210"/>
+    </circle>
+  </g>
+
+  <!-- ring 2: tilted band, opposite flow -->
+  <g transform="rotate(-24 500 210)">
+    <ellipse cx="500" cy="210" rx="150" ry="46" fill="none"
+             stroke="#52525b" stroke-width="2" opacity="0.8"/>
+    <ellipse class="dash-ccw" cx="500" cy="210" rx="150" ry="46" fill="none"
+             stroke="#b91c1c" stroke-width="1.4" stroke-dasharray="6 24" opacity="0.9"/>
+    <circle r="3.2" fill="#ef4444">
+      <animateMotion dur="9s" repeatCount="indefinite"
+        path="M 350,210 A 150,46 0 1,0 650,210 A 150,46 0 1,0 350,210"/>
+    </circle>
+  </g>
+
+  <!-- ring 3: near-vertical ring that tumbles, the 3D flip -->
+  <g transform="rotate(52 500 210)">
+    <ellipse cx="500" cy="210" rx="150" ry="46" fill="none"
+             stroke="#71717a" stroke-width="1.6" opacity="0.75">
+      <animate attributeName="ry" values="46;140;46" dur="12s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse class="dash-cw" cx="500" cy="210" rx="150" ry="46" fill="none"
+             stroke="#d4d4d8" stroke-width="1" stroke-dasharray="3 18" opacity="0.6">
+      <animate attributeName="ry" values="46;140;46" dur="12s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- crimson core -->
+  <circle class="breathe" cx="500" cy="210" r="90" fill="url(#coreGlow)"/>
+  <circle class="corePulse" cx="500" cy="210" r="34" fill="url(#core)"/>
+  <circle cx="490" cy="200" r="6" fill="#7f1d1d" opacity="0.5"/>
+  <circle cx="508" cy="218" r="8" fill="#7f1d1d" opacity="0.4"/>
+
+  <!-- caption -->
+  <text class="caption" x="500" y="398" text-anchor="middle" font-size="15"
+        fill="#71717a" letter-spacing="4">THE ORRERY TURNS · THE SEQUENCES ALIGN · THE BUILD PASSES</text>
+</svg>
