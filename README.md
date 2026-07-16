@@ -1,12 +1,13 @@
 <!-- ============================================================
-     ABOVE THE GRAY FOG
+     ABOVE THE GRAY FOG · full ritual edition
      LOTM themed GitHub profile · Awadul
-     Palette: void #0d0d12 · fog #71717a · crimson #b91c1c · mist #d4d4d8 · spirit gold #c9a227
+     Requires in repo root: fog-banner.svg, mystic-torus.svg, mystic-divider.svg
+     Palette: void #0a0a0f · fog #71717a · crimson #b91c1c · mist #d4d4d8 · spirit gold #c9a227
      ============================================================ -->
 
 <div align="center">
 
-<!-- Fog rolls in: custom animated SVG (commit fog-banner.svg to this repo) -->
+<!-- ACT I · The fog rolls in (animated: drifting fog, pulsing moon, twinkling stars) -->
 <img src="./fog-banner.svg" width="100%" alt="Awadul, above the gray fog"/>
 
 <!-- The whisper above the fog -->
@@ -14,13 +15,13 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/STATUS-ASCENDING-b91c1c?style=for-the-badge&labelColor=0d0d12"/>
-<img src="https://img.shields.io/badge/PATHWAY-FULL_STACK-3f3f46?style=for-the-badge&labelColor=0d0d12"/>
-<img src="https://img.shields.io/badge/ANCHOR-TYPESCRIPT-c9a227?style=for-the-badge&labelColor=0d0d12"/>
+<img src="https://img.shields.io/badge/STATUS-ASCENDING-b91c1c?style=for-the-badge&labelColor=0a0a0f"/>
+<img src="https://img.shields.io/badge/PATHWAY-FULL_STACK-3f3f46?style=for-the-badge&labelColor=0a0a0f"/>
+<img src="https://img.shields.io/badge/ANCHOR-TYPESCRIPT-c9a227?style=for-the-badge&labelColor=0a0a0f"/>
 
 </div>
 
-<br/>
+<img src="./mystic-divider.svg" width="100%" alt=""/>
 
 ## 🃏 The Record Keeper's Notes
 
@@ -30,10 +31,22 @@ I'm **Awais**, a Computer Science student at NUST Islamabad and a freelance full
 
 - 🔮 **Divining:** a CV customizer platform with AI powered parsing and live preview
 - ⚗️ **Brewing potions with:** React, Next.js, Node.js, PostgreSQL, and the OpenAI API
-- 📜 **Sacred texts:** clean commits, honest READMEs, colocated docs
+- 📜 **Acting method:** you don't master a stack by reading about it, you become it by building with it
 - 🕯️ **Reach across the fog:** [awadul.github.io](https://awadul.github.io) · awaisabdullahm79@gmail.com
 
-<br/>
+<img src="./mystic-divider.svg" width="100%" alt=""/>
+
+## 🪐 The Orrery Above the Fog
+
+*A tri-ring torus turning around the crimson moon. The vertical ring tumbles through the third dimension; two spirit motes ride the bands in opposite directions; the outer zodiac dial completes one revolution per minute.*
+
+<div align="center">
+
+<img src="./mystic-torus.svg" width="92%" alt="Rotating celestial torus around the crimson moon"/>
+
+</div>
+
+<img src="./mystic-divider.svg" width="100%" alt=""/>
 
 ## 🜏 Sequence Ladder of the Pathway
 
@@ -52,7 +65,22 @@ I'm **Awais**, a Computer Science student at NUST Islamabad and a freelance full
 | **1** | ??? | *Lost to the fog* | 🔒 Sealed |
 | **0** | The Shipper | *He who deploys on Friday and does not fear* | 🌫️ Myth |
 
-<br/>
+<img src="./mystic-divider.svg" width="100%" alt=""/>
+
+## 🎴 The Gathering at the Bronze Table
+
+*Every Monday above the fog, the seats fill. Each seat is a hat I wear on a real project.*
+
+| Seat | Domain | Where it manifests |
+|:----:|:-------|:-------------------|
+| 🌑 **The Hermit** | Deep focus, solo builds | Freelance client work since 2025 |
+| ⚖️ **Justice** | Honest READMEs, no inflated claims | Every repo on this profile |
+| 🌙 **The Moon** | Late night debugging rituals | PostgreSQL migrations at 2 AM |
+| ☀️ **The Sun** | UI polish, motion, first impressions | Framer Motion, Tailwind design systems |
+| 🐍 **The Hanged Man** | Inverting the problem until it confesses | RAG retrieval tuning |
+| 🌟 **The Star** | The product that must ship | CV Customizer platform |
+
+<img src="./mystic-divider.svg" width="100%" alt=""/>
 
 ## 🌒 Artifacts Recovered From the Fog
 
@@ -97,37 +125,44 @@ A frontend playground where motion and interface design get pushed past sensible
 </tr>
 </table>
 
-<br/>
+<img src="./mystic-divider.svg" width="100%" alt=""/>
 
-## ⚙️ Ingredients of the Potion
+## ⚗️ Ingredients of the Potion
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,postgres,mongodb,supabase,tailwind,figma,git&perline=6&theme=dark"/>
 
+<br/><br/>
+
+<!-- animated flavor line under the icons -->
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=17&duration=3000&pause=1200&color=71717A&center=true&vCenter=true&width=640&lines=Main+ingredient%3A+TypeScript.;Catalyst%3A+caffeine.;Side+effects+include+strong+opinions+about+state+management." alt=""/>
+
 </div>
 
-<br/>
+<img src="./mystic-divider.svg" width="100%" alt=""/>
 
 ## 🔮 Scrying Mirror
 
+*Spirit vision reveals the truth of a developer: not their words, their commit graph.*
+
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Awadul&show_icons=true&hide_border=true&bg_color=0d0d12&title_color=b91c1c&icon_color=c9a227&text_color=d4d4d8&ring_color=b91c1c&count_private=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awadul&layout=compact&hide_border=true&bg_color=0d0d12&title_color=b91c1c&text_color=d4d4d8&langs_count=6"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Awadul&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=b91c1c&icon_color=c9a227&text_color=d4d4d8&ring_color=b91c1c&count_private=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awadul&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=b91c1c&text_color=d4d4d8&langs_count=6"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Awadul&hide_border=true&background=0d0d12&ring=b91c1c&fire=c9a227&currStreakLabel=b91c1c&currStreakNum=d4d4d8&sideNums=d4d4d8&sideLabels=71717a&dates=52525b" width="60%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Awadul&hide_border=true&background=0a0a0f&ring=b91c1c&fire=c9a227&currStreakLabel=b91c1c&currStreakNum=d4d4d8&sideNums=d4d4d8&sideLabels=71717a&dates=52525b" width="60%"/>
 
 <br/><br/>
 
 <!-- The contribution graph, read like tarot -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Awadul&bg_color=0d0d12&color=71717a&line=b91c1c&point=c9a227&area=true&area_color=27272a&hide_border=true&custom_title=Fate%20Lines%20%C2%B7%20Contribution%20Divination" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Awadul&bg_color=0a0a0f&color=71717a&line=b91c1c&point=c9a227&area=true&area_color=27272a&hide_border=true&custom_title=Fate%20Lines%20%C2%B7%20Contribution%20Divination" width="95%"/>
 
 </div>
 
-<br/>
+<img src="./mystic-divider.svg" width="100%" alt=""/>
 
 ## 🐍 The Serpent of Mercury
 
@@ -146,8 +181,8 @@ A frontend playground where motion and interface design get pushed past sensible
 
 <div align="center">
 
-<!-- The crimson moon sets -->
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=160&color=0:b91c1c,40:3f3f46,100:0d0d12&text=May%20your%20builds%20pass%20and%20your%20fog%20stay%20gray&fontColor=71717a&fontSize=18&fontAlignY=72&animation=fadeIn" width="100%"/>
+<!-- ACT V · The crimson moon sets -->
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=160&color=0:b91c1c,40:3f3f46,100:0a0a0f&text=May%20your%20builds%20pass%20and%20your%20fog%20stay%20gray&fontColor=71717a&fontSize=18&fontAlignY=72&animation=fadeIn" width="100%"/>
 
 <sub>🕯️ *This profile loses control on the nights of a full crimson moon. Please refresh.*</sub>
 
