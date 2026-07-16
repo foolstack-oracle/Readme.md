@@ -6,8 +6,8 @@
 
 <div align="center">
 
-<!-- Fog rolls in -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d0d12,35:27272a,70:3f3f46,100:b91c1c&text=A%20W%20A%20D%20U%20L&fontColor=d4d4d8&fontSize=52&fontAlignY=38&desc=Beyonder%20of%20the%20JavaScript%20Pathway&descColor=c9a227&descAlignY=58&animation=fadeIn" width="100%"/>
+<!-- Fog rolls in: custom animated SVG (commit fog-banner.svg to this repo) -->
+<img src="./fog-banner.svg" width="100%" alt="Awadul, above the gray fog"/>
 
 <!-- The whisper above the fog -->
 <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=26&duration=3500&pause=900&color=B91C1C&center=true&vCenter=true&width=720&lines=Sequence+by+sequence%2C+commit+by+commit.;Debugging+is+divination+with+better+tooling.;Every+deploy+is+an+act+of+faith.;The+fog+parts+for+those+who+read+the+logs." alt="typing animation"/>
